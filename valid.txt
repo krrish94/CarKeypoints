@@ -1,0 +1,3 @@
+/absolute/path/to/image/1.jpg 
+/absolute/path/to/image/2.jpg 
+/absolute/path/to/image/3.jpg 
