@@ -4,6 +4,8 @@ This repository contains inference code for using a modified [stacked-hourglass]
 
 The network outputs a likelihood of keypoint presence over every pixel of an input image (the input image is a 64 x 64 car bounding box).
 
+Here's an image showing reference keypoints:
+<img src="assets/main.png" />
 
 ## Setup
 
