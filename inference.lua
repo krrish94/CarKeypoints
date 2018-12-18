@@ -73,6 +73,7 @@ for line in io.lines(data_file) do
    num_images = num_images + 1
 end
 
+nn.DataParallelTable.deserializeNGPUs = 1
 model = torch.load(model_file)
 model:cuda()
 model = model:get(1)
