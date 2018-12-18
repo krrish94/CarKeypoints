@@ -6,7 +6,7 @@ The network outputs a likelihood of keypoint presence over every pixel of an inp
 
 Here is a 3D wireframe with reference keypoints.
 <p align="center">
-	<img src="assets/carKeypoints.png" />
+	<img src="assets/carkeypoints.png" />
 </p>
 
 ## Setup
