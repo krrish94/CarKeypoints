@@ -31,3 +31,15 @@ inference.lua
 ```
 
 This will write a `results.txt` file (you can edit the name and path of this output file in `inference.lua`).
+### Running with arguments
+You must have a `valid.txt` file and a `model.t7` following the instructions above. All arguments must be used.
+If you do not you must create a absolute path dir `/abosolute/path/to/` with a `valid.txt` file and a `model.t7`.
+The generated `results.txt` will also be located there
+#### Torch 7
+```bash
+th inference.lua ./valid.txt ./model.t7 ./results.txt
+```
+#### Lua
+```bash
+lua inference.lua ./valid.txt ./model.t7 ./results.txt
+```
