@@ -44,5 +44,3 @@ luac.out
 *.x86_64
 *.hex
 # End of https://www.gitignore.io/api/lua
-valid.txt
-model.t7
