@@ -13,6 +13,18 @@ model_file = '/absolute/path/to/model.t7'
 -- This file is where results get written to
 results_file = '/absolute/path/to/results.txt'
 
+if(arg ~= nil) then
+   if(arg[1] ~= nil)then
+      data_file = arg[1]
+   end
+   if(arg[2] ~= nil)then
+      model_file = arg[2]
+   end
+   if(arg[3] ~= nil)then
+      results_file = arg[3]
+   end
+end
+
 
 function get_predictions(heat_maps)
    assert(heat_maps:size():size() == 4, 'Input must be 4-D tensor')
